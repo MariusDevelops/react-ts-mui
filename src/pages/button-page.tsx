@@ -1,7 +1,3 @@
-/* eslint-disable max-len */
-/* eslint-disable no-console */
-/* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable no-alert */
 import React, { useState } from 'react';
 import {
   Stack, Button, IconButton, ButtonGroup, ToggleButton, ToggleButtonGroup,
@@ -19,7 +15,7 @@ const ButtonPage = () => {
   };
 
   return (
-    <Stack spacing={4} sx={{ m: 4 }}>
+    <Stack sx={{ mt: 4 }} spacing={4}>
       <Stack spacing={2} direction="row">
         <Button variant="text" href="https://google.com" target="_blank">Text</Button>
         <Button variant="contained">Contained</Button>

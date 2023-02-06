@@ -1,9 +1,9 @@
 /* eslint-disable max-len */
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Typography, Box } from '@mui/material';
 
 const TypographyPage = () => (
-  <div>
+  <Box>
     <Typography variant="h1">h1 Heading</Typography>
     <Typography variant="h2">h2 Heading</Typography>
     <Typography variant="h3">h3 Heading</Typography>
@@ -19,7 +19,7 @@ const TypographyPage = () => (
       Default value. Same as body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rerum doloremque officia saepe impedit dolor, eum mollitia magnam, enim explicabo quo similique, non porro perferendis obcaecati temporibus recusandae cupiditate facere!
     </Typography>
     <Typography variant="body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod soluta deserunt cum fuga ullam placeat. Saepe temporibus quis eius, repellendus officiis suscipit, repudiandae nobis et optio quibusdam, ratione doloribus. Nemo.</Typography>
-  </div>
+  </Box>
 );
 
 export default TypographyPage;
