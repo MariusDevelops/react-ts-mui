@@ -15,7 +15,7 @@ const ButtonPage = () => {
   };
 
   return (
-    <Stack sx={{ mt: 4 }} spacing={4}>
+    <Stack sx={{ m: 4 }} spacing={4}>
       <Stack spacing={2} direction="row">
         <Button variant="text" href="https://google.com" target="_blank">Text</Button>
         <Button variant="contained">Contained</Button>

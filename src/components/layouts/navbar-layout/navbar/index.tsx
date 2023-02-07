@@ -8,6 +8,9 @@ const linksData = [
   { link: routes.TypographyPage, text: 'Typography' },
   { link: routes.ButtonPage, text: 'Buttons' },
   { link: routes.TextFieldPage, text: 'Text Field' },
+  { link: routes.SelectPage, text: 'Select' },
+  { link: routes.RadioButtonPage, text: 'Radio Button' },
+  { link: routes.CheckboxPage, text: 'Checkbox' },
 ];
 
 const Navbar = () => (

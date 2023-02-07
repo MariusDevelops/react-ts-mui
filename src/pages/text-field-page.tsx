@@ -8,7 +8,7 @@ const TextFieldPage = () => {
   const [value, setValue] = useState('');
 
   return (
-    <Stack sx={{ mt: 4 }} spacing={4}>
+    <Stack sx={{ m: 4 }} spacing={4}>
       <Stack direction="row" spacing={2}>
         <TextField label="Name" variant="outlined" />
         <TextField label="Name" variant="filled" />
