@@ -6,9 +6,10 @@ const routes = {
   SelectPage: '/select',
   RadioButtonPage: '/radiobutton',
   CheckboxPage: '/checkbox',
-  SwitchPage: '/switchpage',
-  RatingPage: '/ratingpage',
+  SwitchPage: '/switch',
+  RatingPage: '/rating',
   AutocompletePage: '/autocomplete',
+  LayoutPage: '/layout',
 } as const;
 
 export default routes;

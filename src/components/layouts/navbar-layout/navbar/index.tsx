@@ -14,6 +14,7 @@ const linksData = [
   { link: routes.SwitchPage, text: 'Switch' },
   { link: routes.RatingPage, text: 'Rating' },
   { link: routes.AutocompletePage, text: 'Autocomplete' },
+  { link: routes.LayoutPage, text: 'Layout' },
 ];
 
 const Navbar = () => (

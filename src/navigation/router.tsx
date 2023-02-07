@@ -11,6 +11,7 @@ import CheckboxPage from 'pages/checkbox-page';
 import SwitchPage from 'pages/switch-page';
 import RatingPage from 'pages/rating-page';
 import AutocompletePage from 'pages/autocomplete-page';
+import LayoutPage from 'pages/layout-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: routes.AutocompletePage,
         element: <AutocompletePage />,
+      },
+      {
+        path: routes.LayoutPage,
+        element: <LayoutPage />,
       },
     ],
   },
