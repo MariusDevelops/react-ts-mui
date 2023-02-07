@@ -10,6 +10,10 @@ const routes = {
   RatingPage: '/rating',
   AutocompletePage: '/autocomplete',
   LayoutPage: '/layout',
+  CardPage: '/card',
+  AccordionPage: '/accordion',
+  ImageListPage: '/imagelist',
+  NavbarPage: '/navbar',
 } as const;
 
 export default routes;

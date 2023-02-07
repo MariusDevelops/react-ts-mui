@@ -12,6 +12,10 @@ import SwitchPage from 'pages/switch-page';
 import RatingPage from 'pages/rating-page';
 import AutocompletePage from 'pages/autocomplete-page';
 import LayoutPage from 'pages/layout-page';
+import CardPage from 'pages/card-page';
+import AccordionPage from 'pages/accordion-page';
+import ImageListPage from 'pages/image-list-page';
+import NavbarPage from 'pages/navbar-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -62,6 +66,22 @@ const router = createBrowserRouter([
       {
         path: routes.LayoutPage,
         element: <LayoutPage />,
+      },
+      {
+        path: routes.CardPage,
+        element: <CardPage />,
+      },
+      {
+        path: routes.AccordionPage,
+        element: <AccordionPage />,
+      },
+      {
+        path: routes.ImageListPage,
+        element: <ImageListPage />,
+      },
+      {
+        path: routes.NavbarPage,
+        element: <NavbarPage />,
       },
     ],
   },

@@ -15,6 +15,10 @@ const linksData = [
   { link: routes.RatingPage, text: 'Rating' },
   { link: routes.AutocompletePage, text: 'Autocomplete' },
   { link: routes.LayoutPage, text: 'Layout' },
+  { link: routes.CardPage, text: 'Card' },
+  { link: routes.AccordionPage, text: 'Accordion' },
+  { link: routes.ImageListPage, text: 'Image List' },
+  { link: routes.NavbarPage, text: 'Navbar' },
 ];
 
 const Navbar = () => (
