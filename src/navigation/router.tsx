@@ -8,6 +8,9 @@ import TextFieldPage from 'pages/text-field-page';
 import SelectPage from 'pages/select-page';
 import RadioButtonPage from 'pages/radio-button-page';
 import CheckboxPage from 'pages/checkbox-page';
+import SwitchPage from 'pages/switch-page';
+import RatingPage from 'pages/rating-page';
+import AutocompletePage from 'pages/autocomplete-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -42,6 +45,18 @@ const router = createBrowserRouter([
       {
         path: routes.CheckboxPage,
         element: <CheckboxPage />,
+      },
+      {
+        path: routes.SwitchPage,
+        element: <SwitchPage />,
+      },
+      {
+        path: routes.RatingPage,
+        element: <RatingPage />,
+      },
+      {
+        path: routes.AutocompletePage,
+        element: <AutocompletePage />,
       },
     ],
   },

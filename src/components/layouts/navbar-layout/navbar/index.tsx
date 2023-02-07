@@ -11,6 +11,9 @@ const linksData = [
   { link: routes.SelectPage, text: 'Select' },
   { link: routes.RadioButtonPage, text: 'Radio Button' },
   { link: routes.CheckboxPage, text: 'Checkbox' },
+  { link: routes.SwitchPage, text: 'Switch' },
+  { link: routes.RatingPage, text: 'Rating' },
+  { link: routes.AutocompletePage, text: 'Autocomplete' },
 ];
 
 const Navbar = () => (
