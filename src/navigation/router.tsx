@@ -19,6 +19,9 @@ import NavbarPage from 'pages/navbar-page';
 import LinkPage from 'pages/link-page';
 import BreadcrumbsPage from 'pages/breadcrumbs-page';
 import DrawerPage from 'pages/drawer-page';
+import SpeedDialPage from 'pages/speed-dial-page';
+import BottomNavigationPage from 'pages/bottom-navigation-page';
+import AvatarPage from 'pages/avatar-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -97,6 +100,18 @@ const router = createBrowserRouter([
       {
         path: routes.DrawerPage,
         element: <DrawerPage />,
+      },
+      {
+        path: routes.SpeedDialPage,
+        element: <SpeedDialPage />,
+      },
+      {
+        path: routes.BottomNavigationPage,
+        element: <BottomNavigationPage />,
+      },
+      {
+        path: routes.AvatarPage,
+        element: <AvatarPage />,
       },
     ],
   },

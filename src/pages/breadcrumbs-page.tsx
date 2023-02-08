@@ -7,7 +7,7 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 const BreadcrumbsPage = () => {
   return (
-    <Box m={2}>
+    <Box sx={{ m: 4 }}>
       <Breadcrumbs
         separator={<NavigateNextIcon fontSize="small" />}
         maxItems={3}

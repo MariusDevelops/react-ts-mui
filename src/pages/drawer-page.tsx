@@ -8,7 +8,7 @@ const DrawerPage = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   return (
-    <>
+    <Box sx={{ m: 4 }}>
       <IconButton
         onClick={() => setIsDrawerOpen(true)}
         size="large"
@@ -29,7 +29,7 @@ const DrawerPage = () => {
           </Typography>
         </Box>
       </Drawer>
-    </>
+    </Box>
   );
 };
 

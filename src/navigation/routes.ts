@@ -17,6 +17,9 @@ const routes = {
   LinkPage: '/link',
   BreadcrumbsPage: '/breadcrumbs',
   DrawerPage: '/drawer',
+  SpeedDialPage: '/speeddial',
+  BottomNavigationPage: '/bottomnavigation',
+  AvatarPage: '/avatar',
 } as const;
 
 export default routes;
