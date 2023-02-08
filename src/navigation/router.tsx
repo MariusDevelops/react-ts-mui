@@ -16,6 +16,9 @@ import CardPage from 'pages/card-page';
 import AccordionPage from 'pages/accordion-page';
 import ImageListPage from 'pages/image-list-page';
 import NavbarPage from 'pages/navbar-page';
+import LinkPage from 'pages/link-page';
+import BreadcrumbsPage from 'pages/breadcrumbs-page';
+import DrawerPage from 'pages/drawer-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -82,6 +85,18 @@ const router = createBrowserRouter([
       {
         path: routes.NavbarPage,
         element: <NavbarPage />,
+      },
+      {
+        path: routes.LinkPage,
+        element: <LinkPage />,
+      },
+      {
+        path: routes.BreadcrumbsPage,
+        element: <BreadcrumbsPage />,
+      },
+      {
+        path: routes.DrawerPage,
+        element: <DrawerPage />,
       },
     ],
   },

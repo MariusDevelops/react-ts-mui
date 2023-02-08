@@ -33,9 +33,12 @@ const linksData = [
   { link: routes.AccordionPage, text: 'Accordion' },
   { link: routes.ImageListPage, text: 'Image List' },
   { link: routes.NavbarPage, text: 'Navbar' },
+  { link: routes.LinkPage, text: 'Link' },
+  { link: routes.BreadcrumbsPage, text: 'Breadcrumbs' },
+  { link: routes.DrawerPage, text: 'Drawer' },
 ];
 
-const expandBreakpoint: Breakpoint = 'lg';
+const expandBreakpoint: Breakpoint = 'md';
 
 const Navbar = () => {
   const isExapanded = useMediaQuery((theme: Theme) => theme.breakpoints.up(expandBreakpoint));
