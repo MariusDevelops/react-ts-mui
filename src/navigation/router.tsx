@@ -25,6 +25,9 @@ import AvatarPage from 'pages/avatar-page';
 import BadgePage from 'pages/badge-page';
 import ListPage from 'pages/list-page';
 import ChipPage from 'pages/chip-page';
+import TooltipPage from 'pages/tooltip-page';
+import TablePage from 'pages/table-pages';
+import AlertPage from 'pages/alert-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -127,6 +130,18 @@ const router = createBrowserRouter([
       {
         path: routes.ChipPage,
         element: <ChipPage />,
+      },
+      {
+        path: routes.TooltipPage,
+        element: <TooltipPage />,
+      },
+      {
+        path: routes.TablePage,
+        element: <TablePage />,
+      },
+      {
+        path: routes.AlertPage,
+        element: <AlertPage />,
       },
     ],
   },

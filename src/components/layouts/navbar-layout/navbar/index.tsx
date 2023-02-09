@@ -33,6 +33,32 @@ import NavbarDesktopMenu from './navbar-desktop-menu';
 
 const linksData: LinkData[] = [
   { link: routes.HomePage, text: 'Home' },
+  // { link: routes.TypographyPage, text: 'Typography' },
+  // { link: routes.ButtonPage, text: 'Buttons' },
+  // { link: routes.TextFieldPage, text: 'Text Field' },
+  // { link: routes.SelectPage, text: 'Select' },
+  // { link: routes.RadioButtonPage, text: 'Radio Button' },
+  // { link: routes.CheckboxPage, text: 'Checkbox' },
+  // { link: routes.SwitchPage, text: 'Switch' },
+  // { link: routes.RatingPage, text: 'Rating' },
+  // { link: routes.AutocompletePage, text: 'Autocomplete' },
+  // { link: routes.LayoutPage, text: 'Layout' },
+  // { link: routes.CardPage, text: 'Card' },
+  // { link: routes.AccordionPage, text: 'Accordion' },
+  // { link: routes.ImageListPage, text: 'Image List' },
+  // { link: routes.NavbarPage, text: 'Navbar' },
+  // { link: routes.LinkPage, text: 'Link' },
+  // { link: routes.BreadcrumbsPage, text: 'Breadcrumbs' },
+  // { link: routes.DrawerPage, text: 'Drawer' },
+  // { link: routes.SpeedDialPage, text: 'Speed Dial' },
+  // { link: routes.BottomNavigationPage, text: 'Bottom Navigation' },
+  // { link: routes.AvatarPage, text: 'Avatar' },
+  // { link: routes.BadgePage, text: 'Badge' },
+  // { link: routes.ListPage, text: 'List' },
+  // { link: routes.ChipPage, text: 'Chip' },
+  // { link: routes.TooltipPage, text: 'Tooltip' },
+  // { link: routes.TablePage, text: 'Table' },
+  // { link: routes.AlertPage, text: 'Alert' },
 ];
 
 // const linksData = [
@@ -57,6 +83,12 @@ const linksData: LinkData[] = [
 //   { link: routes.SpeedDialPage, text: 'Speed Dial' },
 //   { link: routes.BottomNavigationPage, text: 'Bottom Navigation' },
 //   { link: routes.AvatarPage, text: 'Avatar' },
+// { link: routes.BadgePage, text: 'Badge' },
+// { link: routes.ListPage, text: 'List' },
+// { link: routes.ChipPage, text: 'Chip' },
+// { link: routes.TooltipPage, text: 'Tooltip' },
+// { link: routes.TablePage, text: 'Table' },
+// { link: routes.AlertPage, text: 'Alert' },
 // ];
 
 const presentationalPagesData = [
@@ -93,6 +125,9 @@ const statefullPagesData = [
   { link: routes.BadgePage, text: 'Badge' },
   { link: routes.ListPage, text: 'List' },
   { link: routes.ChipPage, text: 'Chip' },
+  { link: routes.TooltipPage, text: 'Tooltip' },
+  { link: routes.TablePage, text: 'Table' },
+  { link: routes.AlertPage, text: 'Alert' },
 ];
 
 // const Navbar = () => {
@@ -158,7 +193,7 @@ const statefullPagesData = [
 //   { link: routes.AccordionPage, text: 'Accordion' },
 // ];
 
-const expandBreakpoint: Breakpoint = 'lg';
+const expandBreakpoint: Breakpoint = 'xl';
 
 const Navbar = () => (
   <AppBar position="sticky">
