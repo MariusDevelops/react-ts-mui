@@ -22,6 +22,9 @@ import DrawerPage from 'pages/drawer-page';
 import SpeedDialPage from 'pages/speed-dial-page';
 import BottomNavigationPage from 'pages/bottom-navigation-page';
 import AvatarPage from 'pages/avatar-page';
+import BadgePage from 'pages/badge-page';
+import ListPage from 'pages/list-page';
+import ChipPage from 'pages/chip-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -112,6 +115,18 @@ const router = createBrowserRouter([
       {
         path: routes.AvatarPage,
         element: <AvatarPage />,
+      },
+      {
+        path: routes.BadgePage,
+        element: <BadgePage />,
+      },
+      {
+        path: routes.ListPage,
+        element: <ListPage />,
+      },
+      {
+        path: routes.ChipPage,
+        element: <ChipPage />,
       },
     ],
   },
