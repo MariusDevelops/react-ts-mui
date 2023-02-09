@@ -33,12 +33,12 @@ const NavbarMobileMenu: React.FC<NavbarMobileMenuProps> = ({
   const [drawerOpen, setDrawerOpen] = React.useState<boolean>(false);
   const isExpanded = useMediaQuery((theme: Theme) => theme.breakpoints.up(expandBreakpoint));
 
+  const closeMenu = () => setDrawerOpen(false);
+
   return (
     <>
       <IconButton
-        sx={{
-          display: { xs: 'flex', [expandBreakpoint]: 'none' },
-        }}
+        sx={{ display: { xs: 'flex', [expandBreakpoint]: 'none' } }}
         onClick={() => setDrawerOpen(!drawerOpen)}
       >
         {drawerOpen
@@ -54,11 +54,7 @@ const NavbarMobileMenu: React.FC<NavbarMobileMenuProps> = ({
           <Toolbar />
           <MenuList sx={{ p: 0 }}>
             {linksData.map(({ link, text }) => (
-              <MenuItem
-                key={link}
-                onClick={() => setDrawerOpen(false)}
-                sx={{ p: 0 }}
-              >
+              <MenuItem key={link} onClick={closeMenu} sx={{ p: 0 }}>
                 <NavbarMobileLink to={link}>{text}</NavbarMobileLink>
               </MenuItem>
             ))}
@@ -67,7 +63,7 @@ const NavbarMobileMenu: React.FC<NavbarMobileMenuProps> = ({
                 key={linksGroup.title}
                 title={linksGroup.title}
                 linksData={linksGroup.linksData}
-                closeDrawer={() => setDrawerOpen(false)}
+                closeMenu={closeMenu}
               />
             ))}
           </MenuList>
