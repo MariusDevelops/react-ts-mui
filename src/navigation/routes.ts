@@ -35,6 +35,8 @@ const routes = {
   DateRangePickerPage: '/daterangepicker',
   TimelinePage: '/timeline',
   TabsPage: '/tabs',
+  MasonryPage: '/masonry',
+  ResponsivenessPage: '/responsiveness',
 } as const;
 
 export type Routes = typeof routes;

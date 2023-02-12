@@ -37,6 +37,8 @@ import DateTimePickerPage from 'pages/date-time-picker-page';
 import DateRangePickerPage from 'pages/date-range-picker';
 import TabsPage from 'pages/tabs-page';
 import TimelinePage from 'pages/timeline-page';
+import MasonryPage from 'pages/masonry-page';
+import ResponsivenessPage from 'pages/responsiveness-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -187,6 +189,14 @@ const router = createBrowserRouter([
       {
         path: routes.TimelinePage,
         element: <TimelinePage />,
+      },
+      {
+        path: routes.MasonryPage,
+        element: <MasonryPage />,
+      },
+      {
+        path: routes.ResponsivenessPage,
+        element: <ResponsivenessPage />,
       },
     ],
   },
