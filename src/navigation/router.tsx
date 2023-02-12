@@ -31,6 +31,9 @@ import AlertPage from 'pages/alert-page';
 import SnackbarPage from 'pages/snackbar-page';
 import DialogPage from 'pages/dialog-page';
 import ProgressPage from 'pages/progress-page';
+import SkeletonPage from 'pages/skeleton-page';
+import LoadingButtonPage from 'pages/loading-button-page';
+import DateTimePickerPage from 'pages/date-time-picker-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -157,6 +160,18 @@ const router = createBrowserRouter([
       {
         path: routes.ProgressPage,
         element: <ProgressPage />,
+      },
+      {
+        path: routes.SkeletonPage,
+        element: <SkeletonPage />,
+      },
+      {
+        path: routes.LoadingButtonPage,
+        element: <LoadingButtonPage />,
+      },
+      {
+        path: routes.DateTimePickerPage,
+        element: <DateTimePickerPage />,
       },
     ],
   },

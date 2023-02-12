@@ -29,6 +29,9 @@ const routes = {
   SnackbarPage: '/snackbar',
   DialogPage: '/dialog',
   ProgressPage: '/progress',
+  SkeletonPage: '/skeleton',
+  LoadingButtonPage: '/loadingbutton',
+  DateTimePickerPage: '/datetimepicker',
 } as const;
 
 export type Routes = typeof routes;

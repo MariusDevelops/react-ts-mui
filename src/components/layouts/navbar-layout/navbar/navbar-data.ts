@@ -55,6 +55,9 @@ export const linksGroups = [
       { link: routes.SnackbarPage, text: 'Snackbar' },
       { link: routes.DialogPage, text: 'Dialog' },
       { link: routes.ProgressPage, text: 'Progress' },
+      { link: routes.SkeletonPage, text: 'Skeleton' },
+      { link: routes.LoadingButtonPage, text: 'Loading Button' },
+      { link: routes.DateTimePickerPage, text: 'Date Time Picker' },
     ],
   },
 ];
