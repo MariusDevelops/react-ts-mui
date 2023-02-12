@@ -34,6 +34,9 @@ import ProgressPage from 'pages/progress-page';
 import SkeletonPage from 'pages/skeleton-page';
 import LoadingButtonPage from 'pages/loading-button-page';
 import DateTimePickerPage from 'pages/date-time-picker-page';
+import DateRangePickerPage from 'pages/date-range-picker';
+import TabsPage from 'pages/tabs-page';
+import TimelinePage from 'pages/timeline-page';
 import routes from './routes';
 
 const router = createBrowserRouter([
@@ -172,6 +175,18 @@ const router = createBrowserRouter([
       {
         path: routes.DateTimePickerPage,
         element: <DateTimePickerPage />,
+      },
+      {
+        path: routes.DateRangePickerPage,
+        element: <DateRangePickerPage />,
+      },
+      {
+        path: routes.TabsPage,
+        element: <TabsPage />,
+      },
+      {
+        path: routes.TimelinePage,
+        element: <TimelinePage />,
       },
     ],
   },

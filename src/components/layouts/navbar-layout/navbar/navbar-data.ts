@@ -58,6 +58,9 @@ export const linksGroups = [
       { link: routes.SkeletonPage, text: 'Skeleton' },
       { link: routes.LoadingButtonPage, text: 'Loading Button' },
       { link: routes.DateTimePickerPage, text: 'Date Time Picker' },
+      { link: routes.DateRangePickerPage, text: 'Date Range Picker' },
+      { link: routes.TabsPage, text: 'Tabs' },
+      { link: routes.TimelinePage, text: 'Timeline' },
     ],
   },
 ];

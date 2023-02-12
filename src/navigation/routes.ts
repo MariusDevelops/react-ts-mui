@@ -32,6 +32,9 @@ const routes = {
   SkeletonPage: '/skeleton',
   LoadingButtonPage: '/loadingbutton',
   DateTimePickerPage: '/datetimepicker',
+  DateRangePickerPage: '/daterangepicker',
+  TimelinePage: '/timeline',
+  TabsPage: '/tabs',
 } as const;
 
 export type Routes = typeof routes;
